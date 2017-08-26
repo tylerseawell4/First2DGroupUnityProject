@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: d1cbabba349ed06428292b005c0d1087
+timeCreated: 1503768673
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Sprite sheet Clouds_0
@@ -90,10 +92,10 @@ TextureImporter:
       name: Sprite sheet Clouds_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1881
-        width: 502
-        height: 167
+        x: 17
+        y: 1882
+        width: 471
+        height: 113
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -103,10 +105,10 @@ TextureImporter:
       name: Sprite sheet Clouds_1
       rect:
         serializedVersion: 2
-        x: 525
-        y: 1898
-        width: 522
-        height: 150
+        x: 532
+        y: 1909
+        width: 515
+        height: 92
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -116,10 +118,10 @@ TextureImporter:
       name: Sprite sheet Clouds_2
       rect:
         serializedVersion: 2
-        x: 1090
-        y: 1900
-        width: 309
-        height: 135
+        x: 1100
+        y: 1921
+        width: 288
+        height: 68
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -129,10 +131,10 @@ TextureImporter:
       name: Sprite sheet Clouds_3
       rect:
         serializedVersion: 2
-        x: 1414
-        y: 1881
-        width: 634
-        height: 159
+        x: 1429
+        y: 1899
+        width: 619
+        height: 100
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,10 +144,10 @@ TextureImporter:
       name: Sprite sheet Clouds_4
       rect:
         serializedVersion: 2
-        x: 1483
+        x: 1497
         y: 1713
-        width: 555
-        height: 129
+        width: 541
+        height: 107
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,10 +157,10 @@ TextureImporter:
       name: Sprite sheet Clouds_5
       rect:
         serializedVersion: 2
-        x: 1065
-        y: 1723
-        width: 332
-        height: 89
+        x: 1092
+        y: 1730
+        width: 284
+        height: 63
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,10 +170,10 @@ TextureImporter:
       name: Sprite sheet Clouds_6
       rect:
         serializedVersion: 2
-        x: 598
-        y: 1715
-        width: 375
-        height: 117
+        x: 618
+        y: 1719
+        width: 340
+        height: 89
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,10 +183,10 @@ TextureImporter:
       name: Sprite sheet Clouds_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1721
-        width: 484
-        height: 137
+        x: 13
+        y: 1720
+        width: 459
+        height: 127
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,10 +196,10 @@ TextureImporter:
       name: Sprite sheet Clouds_8
       rect:
         serializedVersion: 2
-        x: 26
-        y: 1551
-        width: 352
-        height: 99
+        x: 67
+        y: 1562
+        width: 302
+        height: 65
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,10 +209,10 @@ TextureImporter:
       name: Sprite sheet Clouds_9
       rect:
         serializedVersion: 2
-        x: 403
-        y: 1513
-        width: 809
-        height: 139
+        x: 427
+        y: 1522
+        width: 736
+        height: 109
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,10 +222,10 @@ TextureImporter:
       name: Sprite sheet Clouds_10
       rect:
         serializedVersion: 2
-        x: 1237
-        y: 1490
-        width: 808
-        height: 137
+        x: 1243
+        y: 1489
+        width: 783
+        height: 126
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,10 +235,10 @@ TextureImporter:
       name: Sprite sheet Clouds_11
       rect:
         serializedVersion: 2
-        x: 1612
-        y: 1250
-        width: 428
-        height: 195
+        x: 1621
+        y: 1266
+        width: 413
+        height: 161
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,10 +274,10 @@ TextureImporter:
       name: Sprite sheet Clouds_14
       rect:
         serializedVersion: 2
-        x: 5
-        y: 1027
-        width: 1062
-        height: 190
+        x: 14
+        y: 1034
+        width: 1032
+        height: 187
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -285,10 +287,10 @@ TextureImporter:
       name: Sprite sheet Clouds_15
       rect:
         serializedVersion: 2
-        x: 1100
-        y: 1052
-        width: 532
-        height: 162
+        x: 1146
+        y: 1065
+        width: 484
+        height: 115
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,10 +300,10 @@ TextureImporter:
       name: Sprite sheet Clouds_16
       rect:
         serializedVersion: 2
-        x: 1703
-        y: 1052
-        width: 271
-        height: 165
+        x: 1721
+        y: 1055
+        width: 239
+        height: 121
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -312,9 +314,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1559
-        y: 824
-        width: 329
-        height: 106
+        y: 834
+        width: 282
+        height: 93
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -324,10 +326,10 @@ TextureImporter:
       name: Sprite sheet Clouds_18
       rect:
         serializedVersion: 2
-        x: 565
+        x: 577
         y: 771
-        width: 925
-        height: 228
+        width: 900
+        height: 218
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -337,10 +339,10 @@ TextureImporter:
       name: Sprite sheet Clouds_19
       rect:
         serializedVersion: 2
-        x: 0
-        y: 816
-        width: 532
-        height: 188
+        x: 10
+        y: 820
+        width: 514
+        height: 146
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,10 +352,10 @@ TextureImporter:
       name: Sprite sheet Clouds_20
       rect:
         serializedVersion: 2
-        x: 5
-        y: 530
-        width: 712
-        height: 246
+        x: 11
+        y: 539
+        width: 698
+        height: 222
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -363,10 +365,10 @@ TextureImporter:
       name: Sprite sheet Clouds_21
       rect:
         serializedVersion: 2
-        x: 773
-        y: 596
-        width: 530
-        height: 106
+        x: 811
+        y: 598
+        width: 477
+        height: 95
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -376,9 +378,9 @@ TextureImporter:
       name: Sprite sheet Clouds_22
       rect:
         serializedVersion: 2
-        x: 1305
+        x: 1314
         y: 512
-        width: 743
+        width: 734
         height: 256
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -391,8 +393,8 @@ TextureImporter:
         serializedVersion: 2
         x: 859
         y: 284
-        width: 768
-        height: 213
+        width: 743
+        height: 208
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,10 +404,10 @@ TextureImporter:
       name: Sprite sheet Clouds_24
       rect:
         serializedVersion: 2
-        x: 0
+        x: 8
         y: 276
-        width: 814
-        height: 229
+        width: 804
+        height: 214
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,10 +417,10 @@ TextureImporter:
       name: Sprite sheet Clouds_25
       rect:
         serializedVersion: 2
-        x: 129
+        x: 164
         y: 0
-        width: 702
-        height: 266
+        width: 626
+        height: 257
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,10 +430,10 @@ TextureImporter:
       name: Sprite sheet Clouds_26
       rect:
         serializedVersion: 2
-        x: 999
-        y: 0
-        width: 940
-        height: 256
+        x: 1040
+        y: 25
+        width: 857
+        height: 205
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
