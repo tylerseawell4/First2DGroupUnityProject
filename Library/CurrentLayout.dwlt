@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 11
+  controlID: 44
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_MinSize: {x: 481, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 68
+  controlID: 91
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -658,18 +658,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Art/IndianHero_Sprites/Hit
+    - Assets/Art/IndianHero_Sprites/RunSpear
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Art/IndianHero_Sprites/Hit
+  - Assets/Art/IndianHero_Sprites/RunSpear
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Tyler\Documents\First2DGroupUnityProject
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 114}
-    m_SelectedIDs: 6e250000
-    m_LastClickedID: 9582
+    m_SelectedIDs: e0250000
+    m_LastClickedID: 9696
     m_ExpandedIDs: 00000000ae24000060260000b0260000162700001827000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -698,7 +698,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ae2400001627000018270000
+    m_ExpandedIDs: 00000000ae24000060260000b02600001627000018270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
