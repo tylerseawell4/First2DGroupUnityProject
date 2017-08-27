@@ -5,7 +5,6 @@ using UnityEngine;
 public class PlayerMobileMovement : MonoBehaviour
 {
     public Rigidbody2D thePlayerRigidBody;
-    public SpriteRenderer thePlayerSpriteRenderer;
     public float moveSpeed;
     private bool facingRight;
     // Use this for initialization
@@ -33,12 +32,12 @@ public class PlayerMobileMovement : MonoBehaviour
         if (thePlayerRigidBody.velocity.x < -.025f && facingRight)
         {
             facingRight = false;
-            transform.localScale = new Vector3(-1f, 1f, 1f);
+            transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, 1f);
         }
         else if (thePlayerRigidBody.velocity.x > .025f && !facingRight)
         {
             facingRight = true;
-            transform.localScale = new Vector3(1f, 1f, 1f);
+            transform.localScale = new Vector3(transform.localScale.x, transform.localScale.y, 1f);
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
