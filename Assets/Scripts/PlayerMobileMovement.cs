@@ -19,10 +19,7 @@ public class PlayerMobileMovement : MonoBehaviour
     {
 #if UNITY_EDITOR
         if (Input.GetKey(KeyCode.UpArrow))
-        {
-
             thePlayerRigidBody.velocity = new Vector3(thePlayerRigidBody.velocity.x, moveSpeed, 0f);
-        }
 #endif
         //creating neutral zone for character movements
         if (Input.acceleration.x > .025f)
