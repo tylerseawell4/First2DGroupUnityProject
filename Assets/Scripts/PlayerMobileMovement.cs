@@ -22,7 +22,7 @@ public class PlayerMobileMovement : MonoBehaviour
             thePlayerRigidBody.velocity = new Vector3(thePlayerRigidBody.velocity.x, moveSpeed, 0f);
 #endif
         //creating neutral zone for character movements
-        if (Input.acceleration.x > .025f)
+        if (Input.acceleration.x > .026f)
         {
             thePlayerRigidBody.velocity = new Vector3(10f * Input.acceleration.x, thePlayerRigidBody.velocity.y, 0f);
         }
