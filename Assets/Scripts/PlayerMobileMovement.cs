@@ -23,7 +23,9 @@ public class PlayerMobileMovement : MonoBehaviour
 #endif
         //creating neutral zone for character movements
         if (Input.acceleration.x > .025f)
+        {
             thePlayerRigidBody.velocity = new Vector3(10f * Input.acceleration.x, thePlayerRigidBody.velocity.y, 0f);
+        }
         //thePlayerRigidBody.AddRelativeForce(Vector3.right * 4f);
         else if (Input.acceleration.x < -.025f)
             thePlayerRigidBody.velocity = new Vector3(10f * Input.acceleration.x, thePlayerRigidBody.velocity.y, 0f);
