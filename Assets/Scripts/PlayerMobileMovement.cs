@@ -5,27 +5,32 @@ using UnityEngine;
 public class PlayerMobileMovement : MonoBehaviour
 {
     public Rigidbody2D thePlayerRigidBody;
-    public float moveSpeed;
-    private bool facingRight;
+    public float _moveSpeed;
+    private bool _facingRight;
+    private float _bounceModifier = 1.5f;
+    private float _bounceForce = 10f;
+    private int _bounceHits = 0;
+    private float _highestVelocityX;
+    private float _highestVelocityY;
     // Use this for initialization
     void Start()
     {
         Screen.orientation = ScreenOrientation.Portrait;
-        moveSpeed = 4f;
-        facingRight = true;
+        _moveSpeed = 4f;
+        _facingRight = true;
     }
 
     private void FixedUpdate()
     {
 #if UNITY_EDITOR
         if (Input.GetKey(KeyCode.UpArrow))
-            thePlayerRigidBody.velocity = new Vector3(thePlayerRigidBody.velocity.x, moveSpeed, 0f);
+            thePlayerRigidBody.velocity = new Vector3(thePlayerRigidBody.velocity.x, _moveSpeed, 0f);
 
-        if(Input.GetKey(KeyCode.LeftArrow))
-            thePlayerRigidBody.velocity = new Vector3(-moveSpeed, thePlayerRigidBody.velocity.y, 0f);
+        if (Input.GetKey(KeyCode.LeftArrow))
+            thePlayerRigidBody.velocity = new Vector3(-_moveSpeed, thePlayerRigidBody.velocity.y, 0f);
 
         if (Input.GetKey(KeyCode.RightArrow))
-            thePlayerRigidBody.velocity = new Vector3(moveSpeed, thePlayerRigidBody.velocity.y, 0f);
+            thePlayerRigidBody.velocity = new Vector3(_moveSpeed, thePlayerRigidBody.velocity.y, 0f);
 
 #endif
         //creating neutral zone for character movements
@@ -42,14 +47,14 @@ public class PlayerMobileMovement : MonoBehaviour
     void Update()
     {
         //creating neutral zone for flip
-        if (thePlayerRigidBody.velocity.x < -.025f && facingRight)
+        if (thePlayerRigidBody.velocity.x < -.025f && _facingRight)
         {
-            facingRight = false;
+            _facingRight = false;
             transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, 1f);
         }
-        else if (thePlayerRigidBody.velocity.x > .025f && !facingRight)
+        else if (thePlayerRigidBody.velocity.x > .025f && !_facingRight)
         {
-            facingRight = true;
+            _facingRight = true;
             transform.localScale = new Vector3(transform.localScale.x, transform.localScale.y, 1f);
         }
     }
@@ -63,6 +68,22 @@ public class PlayerMobileMovement : MonoBehaviour
         {
             thePlayerRigidBody.position = new Vector3(2.80f, thePlayerRigidBody.position.y, 0f);
         }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (_bounceHits < 2)
+        {
+            thePlayerRigidBody.velocity = new Vector3(thePlayerRigidBody.velocity.x, _bounceForce, 0f);
+            _bounceForce *= _bounceModifier;
+            _highestVelocityX = thePlayerRigidBody.velocity.x;
+            _highestVelocityY = thePlayerRigidBody.velocity.y;
+        }
+        else
+        {
+            thePlayerRigidBody.velocity = new Vector3(_highestVelocityX, _highestVelocityY, 0f);
+        }
+        _bounceHits++;
     }
 }
 
