@@ -23,7 +23,6 @@ public class CameraFollow : MonoBehaviour {
     // Update is called once per frame
     void FixedUpdate()
     {
-
-        transform.position = new Vector3(Mathf.Clamp(target.position.x, xMin, xMax), Mathf.Clamp(target.position.y, yMin, yMax), transform.position.z);
+        transform.position = new Vector3(transform.position.x, Mathf.Clamp(target.position.y, yMin, yMax), transform.position.z);
     }
 }
